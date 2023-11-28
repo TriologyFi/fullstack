@@ -9,7 +9,7 @@ sequenceDiagram
     server-->>browser: HTML document
     deactivate server
 
-    Note right of browser: The browser loads the single-page-app
+    Note right of browser: The browser loads the single-page-app HTML document
     
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
     activate server
